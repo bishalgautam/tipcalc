@@ -13,6 +13,7 @@
 		F97F0C361C1CB51300286BF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97F0C351C1CB51300286BF2 /* Images.xcassets */; };
 		F97F0C391C1CB51300286BF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F97F0C371C1CB51300286BF2 /* LaunchScreen.xib */; };
 		F97F0C451C1CB51300286BF2 /* tipcalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97F0C441C1CB51300286BF2 /* tipcalcTests.swift */; };
+		F97F0C4F1C1CCA7F00286BF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97F0C4E1C1CCA7F00286BF2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F97F0C3E1C1CB51300286BF2 /* tipcalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97F0C431C1CB51300286BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F97F0C441C1CB51300286BF2 /* tipcalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalcTests.swift; sourceTree = "<group>"; };
+		F97F0C4E1C1CCA7F00286BF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		F97F0C2C1C1CB51300286BF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F97F0C4E1C1CCA7F00286BF2 /* SettingsViewController.swift */,
 				F97F0C2D1C1CB51300286BF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				F97F0C311C1CB51300286BF2 /* ViewController.swift in Sources */,
 				F97F0C2F1C1CB51300286BF2 /* AppDelegate.swift in Sources */,
+				F97F0C4F1C1CCA7F00286BF2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

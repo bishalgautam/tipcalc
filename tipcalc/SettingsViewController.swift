@@ -20,6 +20,15 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    let defaults = NSUserDefaults.standardUserDefaults()
+   // defaults.setObject("some_string_to_save", forKey: "some_key_that_you_choose")
+ //   defaults.setInteger(0.10, forKey: "tipPercentage")
+  //  defaults.synchronize()
+    
+ //   let defaults = NSUserDefaults.standardUserDefaults()
+ //   let stringValue = defaults.objectForKey("some_key_that_you_choose") as! String
+ //   let intValue = defaults.integerForKey("tipPercentage")
+    
     
 
     /*

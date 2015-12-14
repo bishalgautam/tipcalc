@@ -415,6 +415,7 @@
 				F97F0C4A1C1CB51300286BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F97F0C4B1C1CB51300286BF2 /* Build configuration list for PBXNativeTarget "tipcalcTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				F97F0C4D1C1CB51300286BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
